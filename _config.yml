@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl: 
-url: https://doublecabbage.github.io/
+url: https://doublecabbage.github.io
 date_format: "ordinal"
 title: 双白菜
 subtitle: "DoubleCabbage"
