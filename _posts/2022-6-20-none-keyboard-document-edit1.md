@@ -6,6 +6,7 @@ description: 鼠标丢失，文档又要到ddl了，我该怎么办？
 keywords: Computer
 ---
 
+本文介绍如何使用键盘来联网查询资料和编辑Word文档。
 
 
 ## 联网
@@ -16,7 +17,7 @@ keywords: Computer
 
 于是我尝试用命令行来完成这一工作。首先按下[win]+R的快捷键，打开Run窗口。光标会自动跳转到输入框内。键入cmd三个字母，按回车。
 
-![](\images\Computer\Run-Cmd.jpg)
+![](/images/Computer/Run-Cmd.jpg)
 
 接下来，一个黑色背景的窗口打开。首先，我们要查看电脑中储存的wifi名称和密码。先查看一下帮助，键入如下命令后回车：
 
@@ -24,7 +25,7 @@ keywords: Computer
 
 显示帮助。
 
-![](\images\Computer\netsh-wlan-help.jpg)
+![](/images/Computer/netsh-wlan-help.jpg)
 
 可以看到，show命令可以展示信息。键入如下命令后回车：
 
@@ -38,7 +39,7 @@ keywords: Computer
 
 其中xxx是上一步记录下的名字。
 
-![](\images\Computer\connected.jpg)
+![](/images/Computer/connected.jpg)
 
 显示如图所示的提示，只是代表请求成功发送了，但不代表可以用互联网了。必须等到右下角的wlan图标显示为有信号才行。
 
@@ -52,17 +53,17 @@ keywords: Computer
 
 然后，你进入了谷歌的首页，我这里把必应设为默认页面了。
 
-![](\images\Computer\bing.jpg)
+![](/images/Computer/bing.jpg)
 
 但是注意到我现在不能访问网络，因为我的光标不在输入框里，现在键入网址是无效的。按下chrome的[Ctrl]+L快捷键，你的光标会跳转到地址栏。输入网址或直接输入内容，你能搜索了！
 
 但是，我很快就遇到麻烦了。
 
-![](\images\Computer\search.png)
+![](/images/Computer/search.png)
 
 我无法打开搜索结果。不过这无关紧要。按下[Ctrl]+F打开搜索栏，搜索你想要打开的一个页面的关键词，例如“快捷键”。
 
-![](\images\Computer\select.png)
+![](/images/Computer/select.png)
 
 按回车可以选择到下一个结果。然后，按下esc键。再按回车，你会看到已经成功跳转了。
 
@@ -76,7 +77,7 @@ keywords: Computer
 
 按下alt键。
 
-![](\images\Computer\word-alt.jpg)
+![](/images/Computer/word-alt.jpg)
 
 你会发现在任何一个按钮上都出现了标识。按标识按键，如果有两个标识，同时按下两个键。 
 
