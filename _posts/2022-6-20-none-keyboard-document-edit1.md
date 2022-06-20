@@ -18,7 +18,7 @@ keywords: Computer
 
 接下来，一个黑色背景的窗口打开。首先，我们要查看电脑中储存的wifi名称和密码。先查看一下帮助，键入如下命令后回车：
 
-```netsh wlan help
+> netsh wlan help
 
 显示帮助。
 
@@ -26,15 +26,13 @@ keywords: Computer
 
 可以看到，show命令可以展示信息。键入如下命令后回车：
 
-```netsh wlan show profile
-
-```
+> netsh wlan show profile
 
 目的是显示你所连接过的wifi。然后，从它们中选取出我家的wifi，记下它的名字。
 
 键入如下命令后回车：
 
-```netsh wlan connect xxx
+> netsh wlan connect xxx
 
 其中xxx是上一步记录下的名字。
 
