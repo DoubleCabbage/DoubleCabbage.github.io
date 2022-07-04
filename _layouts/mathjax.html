@@ -1,0 +1,46 @@
+/**
+ *  https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+ *  <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+ *  MathJax初始化本地配置
+ */
+// https://www.cnblogs.com/SilverSquab/p/11459218.html
+// 检测是否初始化 防止重复执行
+let isMathJaxConfig = false;
+const initMathJaxConfig = function () {
+    if(isMathJaxConfig){
+        // 已初始化 退出
+        return ;
+    }
+    //初始化
+    if (!window.MathJax) {
+        window.MathJax = {
+            tex: {
+                inlineMath: [["$", "$"], ["\\(", "\\)"]],   //行内公式选择符
+                displayMath: [["$$", "$$"], ["\\[", "\\]"]],   //段内公式选择符
+                autoload: {
+                    color: [],
+                    colorV2: ['color']
+                },
+                packages: {'[+]': ['noerrors']}
+            },
+            svg: {fontCache: 'global'},
+            options: {
+                skipHtmlTags: ["script", "noscript", "style", "textarea", "pre", "code", "a"],   //避开某些标签
+                ignoreHtmlClass: 'tex2jax_ignore',
+                processHtmlClass: 'tex2jax_process'
+            },
+            loader: {
+                load: ['input/asciimath', '[tex]/noerrors']
+            },
+        };
+    }
+    // 加载js
+    var script = document.createElement('script');
+    // 将公式转换成html输出
+    script.src = 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
+    // 将公式转换成svg输出
+    // script.src = 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-svg.js';
+    document.head.appendChild(script);
+    // 标记为已经执行初始化
+    isMathJaxConfig = true;
+};
