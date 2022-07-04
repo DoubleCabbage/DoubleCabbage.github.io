@@ -4,6 +4,7 @@ title: 弹簧串并联等效劲度系数的推导和应用
 categories: Physics
 description: 弹簧串并联的结论和例题
 keywords: springs
+mathjax: true
 ---
 
 
