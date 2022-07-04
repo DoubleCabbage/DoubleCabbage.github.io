@@ -11,7 +11,8 @@ keywords: springs
 本文分析了弹簧的串并联导致的总体劲度系数变化，并附有几道经典例题的解析。
 
 
-
+<\link href="https://cdn.bootcdn.net/ajax/libs/KaTeX/0.12.0/katex.min.css" rel="stylesheet"><\script src="https://cdn.bootcdn.net/ajax/libs/KaTeX/0.12.0/katex.min.js">
+<\script src="https://cdn.bootcdn.net/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js"> 
 ## 弹簧的并联
 
 并联的情况比较简单。考虑一些劲度系数各不相同（设为$k_1,k_2,k_3,...$)但原长都一样的弹簧，将它们的两端各自接在两块木板上。
