@@ -24,12 +24,12 @@ permalink: /resource/
 **著作**
 
 
-	<a href="https://doublecabbage.github.io/Resource/The Moon and Sixpence.pdf" download="月亮与六便士">
-    月亮与六便士（来自Z-Lib）
-	</a>
+<a href="https://doublecabbage.github.io/Resource/The Moon and Sixpence.pdf" download="月亮与六便士">
+月亮与六便士（来自Z-Lib）
+</a>
 
 	
-   	<a href="https://doublecabbage.github.io/Resource/国家与革命.pdf" download="国家与革命">
+   <a href="https://doublecabbage.github.io/Resource/国家与革命.pdf" download="国家与革命">
    	国家与革命（来自Z-Lib） 
    	</a>
 
