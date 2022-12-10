@@ -34,4 +34,8 @@ permalink: /resource/
    	</a>
 
 
+<a href="https://doublecabbage.github.io/Resource/资本论.pdf" download="资本论">
+   	资本论（中共中央马克思恩格斯列宁斯大林毛泽东著作编译局译）（来自Z-Lib） 
+   	</a>
+
 
